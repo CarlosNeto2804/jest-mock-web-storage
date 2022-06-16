@@ -1,0 +1,33 @@
+{
+  "name": "jest-mock-web-storage",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosNeto2804/jest-mock-web-storage.git"
+  },
+  "keywords": [
+    "jest",
+    "storage",
+    "mock",
+    "sessionStorage",
+    "localStorage",
+    "web"
+  ],
+  "author": {
+    "name": "CarlosNeto2804"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlosNeto2804/jest-mock-web-storage/issues"
+  },
+  "homepage": "https://github.com/CarlosNeto2804/jest-mock-web-storage#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1"
+  }
+}
