@@ -17,7 +17,10 @@ class JestMockWebStorage {
   __mockStorageGetItem() {
     Storage.prototype.getItem = jest
       .fn()
-      .mockImplementation((key) => this.storage[key]);
+      .mockImplementation((key) => {
+        if(this.storage[key] === undefined) return null;
+        return this.storage[key]
+      });
   }
   __mockStorageSetItem() {
     Storage.prototype.setItem = jest.fn().mockImplementation((key, value) => {
